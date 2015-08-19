@@ -15,7 +15,7 @@ Please see the [walkthrough](http://jmfurlott.com/tutorial-setting-up-a-simple-i
 
 ## Installation instructions
 
- In the project's directory, run the following commands:
+ In the project"s directory, run the following commands:
 ```
  $ npm install
  $ npm start

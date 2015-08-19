@@ -1,14 +1,27 @@
 html
   head
-    title="React Isomorphic App"
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title="React Isomorphic"
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
 
 
-    meta(name='description', content='')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name="description", content="")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    
+    style.
+      body {
+        font-family: "Roboto"
+      }
+    
+    link(href="http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700italic,700,900,900italic", rel="stylesheet")
+    link(href="https://fonts.googleapis.com/icon?family=Material+Icons", rel="stylesheet")
+    link(href="http://static.jude.io/datepicker/datepicker.css", rel="stylesheet")
     
   body
     #app!= content
 
-  script(src='http://localhost:8080/js/app.js', defer)
+  script(src="http://localhost:8080/js/app.js", defer)
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js", defer)
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js", defer)
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.min.js", defer)
+  script(src="http://static.jude.io/datepicker/datepicker.js", defer)
